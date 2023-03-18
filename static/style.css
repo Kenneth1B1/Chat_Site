@@ -1,0 +1,144 @@
+/* Import Bootstrap */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+/* Custom CSS */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #444;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #F8F9FA;
+  border-bottom: 1px solid #D3D3D3;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Login Form */
+.login-form {
+  margin-top: 50px;
+}
+
+.login-form h2 {
+  margin-bottom: 30px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+}
+
+.login-form input[type="submit"] {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.login-form input[type="submit"]:hover {
+  background-color: #0069D9;
+}
+
+/* Message List */
+.message-list {
+  margin-top: 30px;
+}
+
+.message {
+  background-color: #F2F2F2;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.message p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.message .meta {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Message Form */
+.message-form {
+  margin-top: 30px;
+}
+
+.message-form textarea {
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+}
+
+.message-form input[type="submit"] {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.message-form input[type="submit"]:hover {
+  background-color: #0069D9;
+}
+
+
+.message.blue {
+  background-color: #0000FF;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.chat-bubble {
+  padding: 10px;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.chat-bubble .time {
+  font-size: 12px;
+  color: #999;
+  margin-right: 5px;
+}
+
+.chat-bubble .text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+}

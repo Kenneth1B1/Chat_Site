@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat App - Login</title>
+</head>
+<body>
+  <h1>Chat App - Login</h1>
+  <form method="POST" action="{{ url_for('login') }}">
+    <label>Username:</label>
+    <input type="text" name="username"><br>
+    <label>Password:</label>
+    <input type="password" name="password"><br>
+    <button type="submit">Login</button>
+  </form>
+  <br>
+  <a href="{{ url_for('signup') }}">Sign up</a>
+</body>
+</html>
